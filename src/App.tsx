@@ -64,7 +64,7 @@ const App = () => {
           />
 
         {/* Área de inserções */}
-        {/*<InputArea onAdd={handleAddItem} />*/}
+        <InputArea onAdd={handleAddItem} />
         
         {/* Área de itens */}
         <TableArea list={filteredList} />
